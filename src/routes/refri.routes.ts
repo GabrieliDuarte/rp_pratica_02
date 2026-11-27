@@ -1,8 +1,7 @@
-import { Router } from "express"
+import { Router } from "express";
+import { controller}
 
 export const refriRouter = Router()
 
-refriRouter.get
-
-
+refriRouter.get("/",Controller.getAll)
 
