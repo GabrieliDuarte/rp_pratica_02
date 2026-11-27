@@ -1,7 +1,6 @@
 import { Router } from "express";
-import { controller}
+import { refriControllers } from "../controllers/refri.controller.js";
 
 export const refriRouter = Router()
 
-refriRouter.get("/",Controller.getAll)
-
+refriRouter.post("/", refriControllers.create)
